@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rahea.fi</title>
     <style>
+        @keyframes a {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: 0% 10000%;
+            }
+        }
         body {
             margin: auto;
             margin-top: 3em;
             text-align: center;
             background: url(pp.png) center center;
+            animation: a 500s linear 0s infinite;
         }
     </style>
 
